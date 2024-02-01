@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&display=swap');
+.body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: rgb(67,198,222);
+  background: linear-gradient(0deg, rgba(67,198,222,1) 0%, rgba(67,100,222,1) 100%);
+  font-family: 'Noto Sans', sans-serif;
+}

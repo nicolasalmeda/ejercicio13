@@ -1,0 +1,40 @@
+.wather-container{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #b3d6dc;
+    width: 80%;
+    gap: 20px;
+    text-align: center;
+}
+
+.temp-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+@media (max-width: 560px) {
+  .temp-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 50%;
+}
+  }
